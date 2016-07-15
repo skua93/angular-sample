@@ -7,7 +7,10 @@ angular.module('contactApp', [])
 })
 
 .controller('AppCtl', function($scope, $filter, jsonFilter){
-    
+
+    $scope.myNumber = $filter('number')(12345.6789,2);
+    $scope.myDate = $filter('date')(725508723000,'yyyy.MM.dd');
+
     $scope.contacts = [
         {
             name: 'John Doe',

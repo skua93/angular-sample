@@ -16,6 +16,11 @@ angular.module('contactApp', ['ngRoute'])
         templateUrl: 'assets/partials/add.html'
     })
 
+    .when('/edit-contact/:id', {
+        controller: 'editCtrl',
+        templateUrl: 'assets/partials/edit.html'
+    })
+
     .when('/contact/:id', {
         controller: 'contactCtrl',
         templateUrl: 'assets/partials/contact.html'
@@ -53,6 +58,10 @@ angular.module('contactApp', ['ngRoute'])
 ------------------------------------*/
 
 .controller('addCtrl', function($scope){
+
+})
+
+.controller('editCtrl', function($scope, $routeParams){
 
 })
 

@@ -1,0 +1,54 @@
+https://github.com/skua93/angular-sample
+https://github.com/skua93/angular-sample.git
+
+GIT클라이언트 
+http://git-scm.com
+
+WebStorm
+http://www.jetbrains.com/webstorm/download/download-thanks.html?platform=windows
+
+angular filter
+https://docs.angularjs.org/api/ng/filter/filter
+
+https://parse.com/docs/kr
+https://www.firebase.com/
+
+
+http://mobicon.tistory.com
+
+
+mean 스택입문
+
+YEOMAN
+Yo Generator
+Bower
+Grunt
+
+확인 
+node -v 
+npm -v
+git
+
+node.js설치후 cmmand창에서
+
+npm install -g yo
+npm install -g bower
+npm install -g grunt-cli
+npm install -g generator-karma
+npm install -g generator-angular
+npm install -g grunt-cli bower yo generator-karma generator-angular
+
+bower install angular-stripe --save
+
+http://www.npmjs.com
+
+yo angular
+yo angular:controller index
+yo angular:service index
+
+grunt serve --force
+
+
+angular 앱의 성능 측정
+Batarang
+

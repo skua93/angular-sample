@@ -1,7 +1,7 @@
-https://github.com/skua93/angular-sample
+ï»¿https://github.com/skua93/angular-sample
 https://github.com/skua93/angular-sample.git
 
-GITÅ¬¶óÀÌ¾ğÆ® 
+GITí´ë¼ì´ì–¸íŠ¸ 
 http://git-scm.com
 
 WebStorm
@@ -17,19 +17,19 @@ https://www.firebase.com/
 http://mobicon.tistory.com
 
 
-mean ½ºÅÃÀÔ¹®
+mean ìŠ¤íƒì…ë¬¸
 
 YEOMAN
 Yo Generator
 Bower
 Grunt
 
-È®ÀÎ 
+í™•ì¸ 
 node -v 
 npm -v
 git
 
-node.js¼³Ä¡ÈÄ cmmandÃ¢¿¡¼­
+node.jsì„¤ì¹˜í›„ cmmandì°½ì—ì„œ
 
 npm install -g yo
 npm install -g bower
@@ -49,6 +49,8 @@ yo angular:service index
 grunt serve --force
 
 
-angular ¾ÛÀÇ ¼º´É ÃøÁ¤
+angular ì•±ì˜ ì„±ëŠ¥ ì¸¡ì •
 Batarang
 
+angular-strap
+http://mgcrea.github.io/angular-strap/

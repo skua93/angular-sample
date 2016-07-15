@@ -27,6 +27,7 @@ angular.module('contactApp', ['ngRoute'])
 
 })
 
+
 /*-----------------------------------
 | Truncate Filter
 ------------------------------------*/
@@ -41,24 +42,31 @@ angular.module('contactApp', ['ngRoute'])
 | Index Controller
 ------------------------------------*/
 
-.controller('indexCtrl', function($scope){
-
+.controller('indexCtrl', function($scope, contactService){
+    $scope.contacts = contactService.getAllContacts();
 })
 
 /*-----------------------------------
 | Add Controller
 ------------------------------------*/
 
-.controller('addCtrl', function($scope){
+.controller('addCtrl', function($scope, contactService){
 
+    $scope.contactFormSubmit = function(){
+        console.log($scope.contact);
+        contactService.registContact($scope.contact);
+        $scope.contact = null;
+    };
 })
 
 /*-----------------------------------
 | Contact Controller
 ------------------------------------*/
 
-.controller('contactCtrl', function($scope, $routeParams){
+.controller('contactCtrl', function($scope, $routeParams, contactService){
 
     console.log($routeParams.id);
+    var contact = contactService.getContactByKey($routeParams.id);
+    $scope.contact = contact;
 
-});
+})

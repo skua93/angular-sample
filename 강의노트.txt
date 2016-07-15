@@ -54,3 +54,11 @@ Batarang
 
 angular-strap
 http://mgcrea.github.io/angular-strap/
+모듈 mgcrea.ngStrap 관련
+
+서버연결
+
+-$http 
+-ngResource
+
+
